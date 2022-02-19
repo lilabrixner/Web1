@@ -1,0 +1,160 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #8b8686;
+    background: url("https://thumbs.dreamstime.com/b/c%C3%B3digo-do-html-web-site-na-exposi%C3%A7%C3%A3o-port%C3%A1til-122458542.jpg");
+    background-attachment: scroll; 
+    background-size: cover;
+    
+}
+
+/* Classes */
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #f9f9f9;
+}
+
+.banner {
+    height: 200px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    background-color: #2ba8da;
+    /* padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-left: 35px; */
+    /* padding: 10px 15px 25px 35px; */
+    /* padding: 10px 25px; */
+    padding: 10px;
+    text-align: center;
+    color: #f9f9f9;
+    /* font-size: 1.4rem; */
+    font-size: 15px;
+    font-weight: bold;
+    height: auto;
+}
+
+
+/* Retira o sublinhado de todos os links */
+
+a {
+    text-decoration: none;
+}
+
+
+/* Os link dentro do Menu */
+
+.menu a:link,
+a:visited {
+    color: #f9f9f9;
+    padding: 10px 25px;
+    transition: 0.8s;
+}
+
+.menu a:hover {
+    background-color: #3532df;
+    transition: 0.5s;
+}
+
+.corpo {
+    background-color: #999999;
+    height: 1000px;
+    min-height: 350px;
+    padding: 35px;
+    text-align: justify;
+    color: #302dc7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.rodape {
+    background-color: #232323;
+    color: #999999;
+    height: 150px;
+    font-size: 0.8rem;
+    padding: 35px;
+}
+
+.links {
+    border: solid 1px greenyellow;
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+.conteudo {
+    border: solid 1px;
+    color: #ff7eff;
+    display: inline;
+}
+
+.cor2 {
+    background-color: #999999;
+    height: 350px;
+    min-height: 350px;
+    color: rgb(5, 77, 5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.cor3{
+    color: yellow;
+    text-align: center;
+}
+
+.contato{
+    color: rgb(255, 94, 0);
+    height: 100px;
+    font-weight: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+/*ID*/
+
+#a1 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+#a2 {
+    color: #2b77da;
+    height: 150px;
+}
+
+
+
+/* Cores dos Links */
+
+
+/*a:link {
+    color: #f9f9f9;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+a:hover {
+    color: gold;
+}*/
